@@ -14,7 +14,7 @@ namespace servicecontrolhub.monitors.protocol.dtos
         [JsonProperty]
         public bool cheсk_result { get; set; }
         [JsonProperty]
-        public List<errorDto>? errors { get; set; }
+        public List<errorDto>? errors { get; set; } = new();
     }
 
     public class errorDto

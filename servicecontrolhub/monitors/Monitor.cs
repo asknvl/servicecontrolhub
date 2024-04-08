@@ -59,16 +59,33 @@ namespace servicecontrolhub.monitors
         {
             try
             {
-                var responce = await diagnosticsRx.GetDiagnosticsResult();
-                if (!responce.cheсk_result)
+             
+                serviceDiagnosticsDto response = null;
+
+                try
                 {
-                    logErrorMessage(responce.errors);
-                    await diagnosticsToBotTx.SendDiagnosticsResult(responce);
+                    response = await diagnosticsRx.GetDiagnosticsResult();
+                } catch (Exception ex)
+                {
+                    response = new serviceDiagnosticsDto();
+                    response.cheсk_result = false;
+                    response.service_name = monitor_settings.service_name;
+                    response.errors.Add(new errorDto() { 
+                        entity = "Общий сбой",
+                        description = "Сервис недоступен"
+                    });
+                }
+
+
+                if (!response.cheсk_result)
+                {
+                    logErrorMessage(response.errors);
+                    await diagnosticsToBotTx.SendDiagnosticsResult(response);
                 }
 
             } catch (Exception ex)
             {
-                logger.err(TAG, $"\n{ex.Message}");
+                logger.err(TAG, $"\n{ex.Message}");                
             }
         }
         #endregion
