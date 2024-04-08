@@ -20,7 +20,7 @@ namespace servicecontrolhub.rest
 
         public RestService()
         {
-            logger = new Logger("rest");
+            logger = new Logger("rest", "rest");
         }
 
         #region private

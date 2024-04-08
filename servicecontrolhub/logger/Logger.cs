@@ -19,26 +19,9 @@ namespace servicecontrolhub.logger
         string filePath;
         #endregion
 
-        #region properties
-        bool disableFileOutput;
-        public bool DisableFileOutput
+        public Logger(string subdir, string filename)
         {
-            get => disableFileOutput;
-            set
-            {
-                if (value)
-                    timer.Stop();
-                else
-                    timer.Start();
-
-                disableFileOutput = value;
-            }
-        }
-        #endregion
-
-        public Logger(string filename)
-        {
-            var fileDirectory = Path.Combine(Directory.GetCurrentDirectory(), logFolder);
+            var fileDirectory = Path.Combine(Directory.GetCurrentDirectory(), logFolder, subdir);
             if (!Directory.Exists(fileDirectory))
                 Directory.CreateDirectory(fileDirectory);
 
@@ -46,6 +29,16 @@ namespace servicecontrolhub.logger
 
             if (File.Exists(filePath))
                 File.Delete(filePath);
+
+            timer.AutoReset = true;
+            timer.Interval = 10 * 1000;
+            timer.Elapsed += Timer_Elapsed;
+            timer.Start();
+
+            clearTimer.AutoReset = true;
+            clearTimer.Interval = 48 * 60 * 60 * 1000;
+            clearTimer.Elapsed += ClearTimer_Elapsed;
+            clearTimer.Start();
         }
 
         #region private
@@ -94,8 +87,8 @@ namespace servicecontrolhub.logger
         #region helpers
         void post(LogMessage message)
         {
-            if (!DisableFileOutput)
-                logMessages.Enqueue(message);
+            
+            logMessages.Enqueue(message);
         }
         #endregion
 
@@ -104,24 +97,29 @@ namespace servicecontrolhub.logger
         {
             var message = new LogMessage(LogMessageType.dbg, tag, text);
             post(message);
+            Console.WriteLine(message.ToString());
+
         }
 
         public void err(string tag, string text)
         {
             var message = new LogMessage(LogMessageType.err, tag, text);
             post(message);
+            Console.WriteLine(message.ToString());
         }
 
         public void inf(string tag, string text)
         {
             var message = new LogMessage(LogMessageType.inf, tag, text);
             post(message);
+            Console.WriteLine(message.ToString());
         }
 
         public void inf_urgent(string tag, string text)
         {
             var message = new LogMessage(LogMessageType.inf_urgent, tag, text);
             post(message);
+            Console.WriteLine(message.ToString());
         }
         #endregion
     }

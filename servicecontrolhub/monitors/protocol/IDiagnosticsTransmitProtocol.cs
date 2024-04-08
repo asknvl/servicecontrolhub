@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace servicecontrolhub.monitors.protocol
 {
-    public interface IProtocol
+    public interface IDiagnosticsTransmitProtocol
     {
-        Task<serviceDiagnosticsDto> GetDiagnosticsResult();
+        Task SendDiagnosticsResult(serviceDiagnosticsDto data);
     }
 }

@@ -32,25 +32,25 @@ namespace servicecontrolhub.config
 
     }
 
-    public class Rest  
+    public class keepalive_settings  
     {
         public int port { get; set; } = 5050;
     }
 
-    public class Output
+    public class bot_notifier_settings
     {
         public string url { get; set; } = "";
+        public string auth_token { get; set; } = "";
     }
 
     public class Config
     {
-        public Rest rest { get; set; } = new();
-        public Output output { get; set; } = new();
+        public keepalive_settings keepalive_settings { get; set; } = new();
+        public bot_notifier_settings bot_settings { get; set; } = new();
         public List<MonitorSettings> monitors { get; set; } = new();
 
         public Config()
         {
-            monitors.Add(new MonitorSettings());
         }
     }
 

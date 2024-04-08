@@ -1,0 +1,18 @@
+{
+  "keepalive_settings": {
+    "port": 5050
+  },
+  "bot_settings": {
+    "url": "http://localhost:5050",
+    "auth_token": ""
+  },
+  "monitors": [
+    {
+      "service_name": "Aviator&Latam bots",
+      "service_url": "http://localhost:5050",
+      "auth_token": null,
+      "diagnostics_period": 10,
+      "diagnostics_timeout": 60
+    }
+  ]
+}

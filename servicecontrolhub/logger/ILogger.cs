@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace servicecontrolhub.logger
 {
     public interface ILogger
-    {
-        bool DisableFileOutput { get; set; }
+    {        
         void dbg(string tag, string text);
         void err(string tag, string text);
         void inf(string tag, string text);

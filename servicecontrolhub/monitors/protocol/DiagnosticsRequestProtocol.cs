@@ -11,26 +11,28 @@ using System.Threading.Tasks;
 
 namespace servicecontrolhub.monitors.protocol
 {
-    public class Protocol : IProtocol
+    public class DiagnosticsRequestProtocol : IDiagnosticsRequestProtocol
     {
         #region vars
         ServiceCollection serviceCollection;
         IHttpClientFactory httpClientFactory;
-        string url;
-        string token;
-        int timeout;
+        HttpClient httpClient;
+        string url;        
         #endregion
 
-        public Protocol(string url, string token, int timeout)
+        public DiagnosticsRequestProtocol(string url, string token, int timeout)
         {
             this.url = url;
-            this.token = token;
-            this.timeout = timeout;
 
             serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);
             var services = serviceCollection.BuildServiceProvider();
             httpClientFactory = services.GetRequiredService<IHttpClientFactory>();
+            httpClient = httpClientFactory.CreateClient();
+
+            httpClient.Timeout = new TimeSpan(0, 0, timeout);
+            if (!string.IsNullOrEmpty(token))
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
         #region private
@@ -40,17 +42,21 @@ namespace servicecontrolhub.monitors.protocol
         }
 
         public async Task<serviceDiagnosticsDto> GetDiagnosticsResult()
-        {            
-            var addr = $"{url}/diagnostics";
-            var httpClient = httpClientFactory.CreateClient();
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            httpClient.Timeout = new TimeSpan(0, 0, timeout);
+        {
+            string sres = string.Empty;
 
+            var addr = $"{url}/diagnostics";                                    
             var response = await httpClient.GetAsync(addr);
-            response.EnsureSuccessStatusCode();
-            var result = await response.Content.ReadAsStringAsync();
 
-            return JsonConvert.DeserializeObject<serviceDiagnosticsDto>(result);            
+            try
+            {
+                response.EnsureSuccessStatusCode();
+                sres = await response.Content.ReadAsStringAsync();
+            } catch (Exception ex)
+            {
+                throw new Exception($"GetDiagnosticsResult {ex.Message}");
+            }
+            return JsonConvert.DeserializeObject<serviceDiagnosticsDto>(sres);            
         }
         #endregion
 
