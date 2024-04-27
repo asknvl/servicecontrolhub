@@ -1,5 +1,6 @@
 ﻿using servicecontrolhub.config;
 using servicecontrolhub.monitors;
+using servicecontrolhub.rest;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace servicecontrolhub.hub
     {
 
         List<IMonitor> monitors = new List<IMonitor>();
+        RestService restService = new RestService();
 
         public Hub(Config config) { 
 
@@ -21,7 +23,8 @@ namespace servicecontrolhub.hub
                 monitor.Start();
             }
 
-
+            restService.RequestProcessors.Add(new KeepAliveRequestProcessor());
+            restService.Listen(config.keepalive_settings.port);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("servicecontrolhub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac7a893a8de49d947dcfddce6cce0e66528ff0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("servicecontrolhub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("servicecontrolhub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

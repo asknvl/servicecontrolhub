@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\hub\\hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\restservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\rest\\restservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\irestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\rest\\irestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\keepaliverequestprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\rest\\keepaliverequestprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\idiagnosticstransmitprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\protocol\\idiagnosticstransmitprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\dtos\\servicediagnosticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\protocol\\dtos\\servicediagnosticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\requestprocessorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\rest\\requestprocessorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\monitortobottransmitprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\protocol\\monitortobottransmitprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\idiagnosticsrequestprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\protocol\\idiagnosticsrequestprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\hub\\ihub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\imonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\monitors\\imonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\storage\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|c:\\work\\raceup\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\logmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A7E784-261C-4BA8-BC64-B6E9797F4EE2}|servicecontrolhub\\servicecontrolhub.csproj|solutionrelative:servicecontrolhub\\logger\\logmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 368,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Monitor.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\Monitor.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\Monitor.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\Monitor.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\Monitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:04:29.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\Logger.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\logger\\Logger.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\Logger.cs",
+              "RelativeToolTip": "servicecontrolhub\\logger\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:48:51.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\Program.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\Program.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\Program.cs",
+              "RelativeToolTip": "servicecontrolhub\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T09:36:05.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDiagnosticsRequestProtocol.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\IDiagnosticsRequestProtocol.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\protocol\\IDiagnosticsRequestProtocol.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\IDiagnosticsRequestProtocol.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\protocol\\IDiagnosticsRequestProtocol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T16:00:17.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDiagnosticsTransmitProtocol.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\IDiagnosticsTransmitProtocol.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\protocol\\IDiagnosticsTransmitProtocol.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\IDiagnosticsTransmitProtocol.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\protocol\\IDiagnosticsTransmitProtocol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T21:31:53.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hub.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\Hub.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\hub\\Hub.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\Hub.cs",
+              "RelativeToolTip": "servicecontrolhub\\hub\\Hub.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:56:35.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "serviceDiagnosticsDto.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\dtos\\serviceDiagnosticsDto.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\protocol\\dtos\\serviceDiagnosticsDto.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\dtos\\serviceDiagnosticsDto.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\protocol\\dtos\\serviceDiagnosticsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T18:12:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\ILogger.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\logger\\ILogger.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\ILogger.cs",
+              "RelativeToolTip": "servicecontrolhub\\logger\\ILogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:45:15.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestProcessorBase.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\RequestProcessorBase.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\rest\\RequestProcessorBase.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\RequestProcessorBase.cs",
+              "RelativeToolTip": "servicecontrolhub\\rest\\RequestProcessorBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:48:06.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRestService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\IRestService.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\rest\\IRestService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\IRestService.cs",
+              "RelativeToolTip": "servicecontrolhub\\rest\\IRestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:40:26.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KeepAliveRequestProcessor.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\KeepAliveRequestProcessor.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\rest\\KeepAliveRequestProcessor.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\KeepAliveRequestProcessor.cs",
+              "RelativeToolTip": "servicecontrolhub\\rest\\KeepAliveRequestProcessor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:00:05.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MonitorToBotTransmitProtocol.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\MonitorToBotTransmitProtocol.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\protocol\\MonitorToBotTransmitProtocol.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\protocol\\MonitorToBotTransmitProtocol.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\protocol\\MonitorToBotTransmitProtocol.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T21:38:27.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IMonitor.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\IMonitor.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\monitors\\IMonitor.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\monitors\\IMonitor.cs",
+              "RelativeToolTip": "servicecontrolhub\\monitors\\IMonitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:03:52.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStorage.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\IStorage.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\storage\\IStorage.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\IStorage.cs",
+              "RelativeToolTip": "servicecontrolhub\\storage\\IStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:21:13.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\Storage.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\storage\\Storage.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\storage\\Storage.cs",
+              "RelativeToolTip": "servicecontrolhub\\storage\\Storage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:21:23.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IHub.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\IHub.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\hub\\IHub.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\hub\\IHub.cs",
+              "RelativeToolTip": "servicecontrolhub\\hub\\IHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:56:11.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LogMessage.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\LogMessage.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\logger\\LogMessage.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\logger\\LogMessage.cs",
+              "RelativeToolTip": "servicecontrolhub\\logger\\LogMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:45:22.811Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "5638498e-d24a-4d3b-9f2b-1d77efd3b702",
+        "Display": 1,
+        "X": -107,
+        "Y": 153,
+        "Width": 1907,
+        "Height": 839,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\RestService.cs",
+              "RelativeDocumentMoniker": "servicecontrolhub\\rest\\RestService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\servicecontrolhub\\servicecontrolhub\\rest\\RestService.cs",
+              "RelativeToolTip": "servicecontrolhub\\rest\\RestService.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAMwJYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:40:55.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

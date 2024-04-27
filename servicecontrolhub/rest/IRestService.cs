@@ -2,6 +2,6 @@
 {
     public interface IRestService
     {
-        void Listen();
+        void Listen(int port);
     }
 }

@@ -14,7 +14,6 @@ C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\serv
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\ref\servicecontrolhub.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\servicecontrolhub.csproj.AssemblyReference.cache
-C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\servicecontrolhub.csproj.CopyComplete
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -23,3 +22,5 @@ C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Micr
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\servicecontrolhub.sourcelink.json
+C:\WORK\RaceUP\sources\servicecontrolhub\servicecontrolhub\obj\Debug\net6.0\servicec.AD670D04.Up2Date
